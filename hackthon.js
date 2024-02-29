@@ -1,15 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const registerButton = document.getElementById("registerButton");
+var link_path=document.getElementById("registerButton")
+function register_func(event) {
+  window.open("https://docs.google.com/forms/d/e/1FAIpQLSeWxHu_aL7J_CAGwXNn3s5YOO1M0DAmjml87xDj3pF8iA-fcg/viewform", "_blank");
+}
 
-  if (registerButton) {
-    registerButton.addEventListener("click", function () {
-      window.location.href =
-        "https://docs.google.com/forms/d/e/1FAIpQLSeWxHu_aL7J_CAGwXNn3s5YOO1M0DAmjml87xDj3pF8iA-fcg/viewform";
-    });
-  }
+const registerButton = document.getElementById("registerButton");
+if (registerButton) {
+  registerButton.addEventListener("click", register_func);
+}
 
-  document.body.classList.add("loaded");
-});
 
 function showDetails(stepNumber) {
   let detailsContainer = document.getElementById("details-container");
@@ -41,7 +39,7 @@ function showDetails(stepNumber) {
           <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuI2AfODo6_u5mCw6c2Bwy6llyWAkhykrnSQ&usqp=CAU' alt='Workshop Image' class='background-image' />
           <p class='step-text'style='color:#4b0082;text-shadow:0 0 10px #fc6c85,0 0 20px #fc6c85;font-size: 40px;'>${details}</p>
         </div>`;
-      styleImage("/BME/images/teamwork_image.jpg"); // Style the image
+      styleImage("?BME/images/teamwork_image.jpg"); // Style the image
       break;
     case 4:
       details =
