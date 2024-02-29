@@ -1,6 +1,6 @@
 /* Add your styles for the project here */
 body {
-    font-family: 'Pacifico', sans-serif; 
+    font-family:'Times New Roman', Times, serif; 
     background: linear-gradient(to right, #033B85, #ffffff); /* Updated gradient color */
     padding: 50px 20px; 
     text-align: center;
@@ -21,7 +21,7 @@ body {
 
 header {
    
-    color: #ffffff;
+    color: #FFD700;
     text-align: center;
     margin-bottom: 20px;
     padding: 50px 0;
@@ -33,14 +33,15 @@ header {
 }
 
 .header-content h1 {
-    font-family: cursive;
+    font-family:'Times New Roman', Times, serif;
     font-size: 36px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: #fff;
+    color: #FFD700;
 }
 
 .header-content h2 {
+    color: #FFD700;
     font-family: cursive;
     font-size: 24px;
     margin-bottom: 30px;
@@ -100,7 +101,7 @@ header {
 }
 
 .nav a:hover {
-    background-color: #6a20a3; 
+    background-color: #033eff; 
 }
 
 section {
@@ -113,17 +114,17 @@ section {
 }
 
 section h2 {
-    font-family: cursive;
+    font-family:'Times New Roman', Times, serif;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #033B85; 
+    color: #FFD700; 
     text-transform: uppercase;
 }
 
 section p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    color: #000; 
+    color:pea; 
     margin-bottom: 20px;
 }
 
@@ -186,33 +187,34 @@ body {
 }
 
 .container {
+    font-size: large;
     max-width: 100%;
     margin: 0 auto;
     padding: 10px;
 }
 
 .header-content h1 {
-    font-size: 24px;
+    font-size: large;
     margin-bottom: 15px;
     color: #033B85;
 }
 
 .header-content h2 {
-    font-size: 18px;
+    font-size: large;
     margin-bottom: 20px;
 }
 
 .timer-box p {
-    font-size: 20px;
+    font-size: large;
     margin: 0;
 }
 
 .timer-box span {
-    font-size: 14px;
+    font-size: large;
 }
 
 .contents p {
-    font-size: 18px;
+    font-size: large;
 }
 
 .nav ul {
@@ -247,7 +249,7 @@ body {
 }
 
 .section p {
-    font-size: 16px;
+    font-size: large;
     margin-bottom: 15px;
 }
 
@@ -287,7 +289,7 @@ body {
 /* Android device styles */
 @media (max-width: 767px) {
     .header-content h1 {
-        font-size: 20px;
+        font-size: large;
     }
 
     .header-content h2 {
@@ -295,15 +297,15 @@ body {
     }
 
     .timer-box p {
-        font-size: 18px;
+        font-size:large;
     }
 
     .timer-box span {
-        font-size: 12px;
+        font-size: large;
     }
 
     .contents p {
-        font-size: 16px;
+        font-size: large;
     }
 
     .re {
