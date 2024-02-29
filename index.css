@@ -1,0 +1,309 @@
+/* Add your styles for the project here */
+body {
+    font-family: 'Pacifico', sans-serif; 
+    background: linear-gradient(to right, #033B85, #ffffff); /* Updated gradient color */
+    padding: 50px 20px; 
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    background: url('/BME/images/background_image.jpg')  no-repeat fixed;
+}
+.logo{
+    mix-blend-mode: color-burn;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+header {
+   
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 50px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-content h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.launch-time {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap; 
+}
+
+.timer-box {
+    margin: 10px; 
+    text-align: center;
+}
+
+.timer-box p {
+    font-size: 24px; 
+    margin: 0;
+}
+
+.timer-box span {
+    font-size: 16px; 
+}
+
+.contents p {
+    font-size: 20px; 
+}
+
+.nav{
+    background-image: url(/images/section_image.jpg);
+    mix-blend-mode: color-dodge;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.nav ul li {
+    margin: 0 10px;
+}
+
+.nav a {
+    padding: 10px 20px;
+    background-color: #4b0082; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #6a20a3; 
+}
+
+section {
+    background: linear-gradient(to right, #033B85, #e6e6e6); /* Updated gradient color */
+    padding: 50px 20px; 
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #033B85; 
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 18px;
+    color: #000; 
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 15px 30px;
+    background-color: #4b0082; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6a20a3; 
+}
+
+.flow-path {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.step {
+    padding: 10px 20px;
+    background-color: #6a20a3; 
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.step:hover {
+    background-color: #4b0082; 
+}
+
+.step.active {
+    background-color: #ffcc00; 
+    color: #000; 
+}
+
+#details-container {
+    margin-top: 30px;
+}
+.re {
+    width: 1400px;
+}
+
+@media (max-width: 768px) {
+    /* Common styles for all devices */
+body {
+    font-family: 'Pacifico', sans-serif;
+    background: linear-gradient(to right, #033B85, #ffffff); /* Updated gradient color */
+    padding: 30px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header-content h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #033B85;
+}
+
+.header-content h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.timer-box p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.timer-box span {
+    font-size: 14px;
+}
+
+.contents p {
+    font-size: 18px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav ul li {
+    margin: 0 8px;
+}
+
+.nav a {
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+
+.section {
+    background: linear-gradient(to right, #033B85, #e6e6e6); /* Updated gradient color */
+    padding: 30px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.flow-path {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.step {
+    padding: 8px 16px;
+    margin: 5px;
+}
+
+#details-container {
+    margin-top: 20px;
+}
+
+.re {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Laptop styles */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/* Android device styles */
+@media (max-width: 767px) {
+    .header-content h1 {
+        font-size: 20px;
+    }
+
+    .header-content h2 {
+        font-size: 16px;
+    }
+
+    .timer-box p {
+        font-size: 18px;
+    }
+
+    .timer-box span {
+        font-size: 12px;
+    }
+
+    .contents p {
+        font-size: 16px;
+    }
+
+    .re {
+        width: 100%;
+        height: auto;
+    }
+}
+
+}
