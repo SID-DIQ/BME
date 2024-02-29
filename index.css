@@ -278,10 +278,10 @@ body {
     max-width: 100%;
     height: auto;
 }
-/* .re1 {
-    width: 100%;
+.re1 {
+    max-width:100%;
     height: auto;
-} */
+}
 
 
 /* Laptop styles */
@@ -318,8 +318,8 @@ body {
         height: auto;
     }
     .re1 {
-        width:100px;
-        height: 100px;
+        width:100%;
+        height: auto;
     }
 }
 
