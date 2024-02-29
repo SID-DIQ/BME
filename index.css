@@ -278,6 +278,11 @@ body {
     max-width: 100%;
     height: auto;
 }
+.re1 {
+    width: 100%;
+    height: auto;
+}
+
 
 /* Laptop styles */
 @media (min-width: 1024px) {
@@ -313,7 +318,7 @@ body {
         height: auto;
     }
     .re1 {
-        width: auto;
+        width: 100%;
         height: auto;
     }
 }
