@@ -20,14 +20,17 @@ body {
 }
 
 header {
-   
-    color: #FFD700;
     text-align: center;
     margin-bottom: 20px;
     padding: 50px 0;
 }
 
+.gold{
+    color: #FFD700;
+}
+
 .header-content {
+    color: #ffffff;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -196,17 +199,19 @@ body {
 .header-content h1 {
     font-size: large;
     margin-bottom: 15px;
-    color: #FFD700;
+    color: #ffffff;
 }
 
 .header-content h2 {
     font-size: large;
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 .timer-box p {
     font-size: large;
     margin: 0;
+    color: #ffffff;
 }
 
 .timer-box span {
